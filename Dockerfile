@@ -17,4 +17,4 @@ RUN pipenv install --deploy --ignore-pipfile
 COPY . .
 
 # Вкажіть команду для запуску вашого проекту
-CMD ["pipenv", "run", "python", "your_script.py"]
+CMD ["pipenv", "run", "python", "bot_app.py"]
